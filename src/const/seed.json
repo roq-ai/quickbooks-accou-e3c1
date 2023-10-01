@@ -1,0 +1,2372 @@
+[
+  {
+    "inventory": [
+      {
+        "id": "06c26595-3265-4329-91c4-c44dd59d1a16",
+        "product_name": "Product A",
+        "quantity": 73313,
+        "price": 32541,
+        "supplier": "Supplier A",
+        "created_at": "2023-09-30T23:35:08.460Z",
+        "updated_at": "2023-09-30T23:07:37.382Z"
+      },
+      {
+        "id": "6b95cf39-97cf-46c0-b203-df3f77235eb0",
+        "product_name": "Product B",
+        "quantity": 20840,
+        "price": 49007,
+        "supplier": "Supplier B",
+        "created_at": "2023-09-30T06:54:26.108Z",
+        "updated_at": "2023-09-30T09:57:39.503Z"
+      },
+      {
+        "id": "9e205a83-097a-4b42-ab52-2e9630acd3be",
+        "product_name": "Product C",
+        "quantity": 45693,
+        "price": 42793,
+        "supplier": "Supplier C",
+        "created_at": "2023-09-30T12:34:59.821Z",
+        "updated_at": "2023-09-30T21:10:43.642Z"
+      },
+      {
+        "id": "64095974-c924-4c90-9205-6e196d861d65",
+        "product_name": "Product D",
+        "quantity": 1842,
+        "price": 31326,
+        "supplier": "Supplier D",
+        "created_at": "2023-09-30T08:46:32.984Z",
+        "updated_at": "2023-09-30T23:10:21.746Z"
+      },
+      {
+        "id": "5165af52-a61e-4be1-88ee-7904a1ddddef",
+        "product_name": "Product E",
+        "quantity": 51973,
+        "price": 19726,
+        "supplier": "Supplier E",
+        "created_at": "2023-09-30T11:32:38.060Z",
+        "updated_at": "2023-09-30T18:41:46.114Z"
+      }
+    ],
+    "account": [
+      {
+        "id": "f82245d0-a2e8-42cf-bb65-2a3238e3bf29",
+        "account_number": "1234567890",
+        "account_type": "Savings",
+        "balance": 34194,
+        "created_at": "2023-09-30T05:01:33.790Z",
+        "updated_at": "2023-09-30T11:52:22.208Z"
+      },
+      {
+        "id": "8747c14a-7cbd-40fb-9929-ef7e30282b6f",
+        "account_number": "0987654321",
+        "account_type": "Checking",
+        "balance": 97033,
+        "created_at": "2023-09-30T10:00:14.847Z",
+        "updated_at": "2023-09-30T12:27:10.417Z"
+      },
+      {
+        "id": "be8ea322-ddbe-4750-8fa2-33d692e4a927",
+        "account_number": "2468135790",
+        "account_type": "Investment",
+        "balance": 34698,
+        "created_at": "2023-09-30T03:55:54.832Z",
+        "updated_at": "2023-09-30T01:32:45.646Z"
+      },
+      {
+        "id": "bb05cfc3-ddd4-4f02-865c-bdbd9ca6bf08",
+        "account_number": "1357924680",
+        "account_type": "Credit Card",
+        "balance": 43428,
+        "created_at": "2023-09-30T01:29:47.259Z",
+        "updated_at": "2023-09-30T22:36:19.055Z"
+      },
+      {
+        "id": "89f1e4d7-4beb-4041-8610-a18fe3cf5f75",
+        "account_number": "9876543210",
+        "account_type": "Loan",
+        "balance": 73658,
+        "created_at": "2023-09-30T20:00:08.676Z",
+        "updated_at": "2023-09-30T14:45:21.285Z"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "8ea3a6da-c84b-44b0-818b-71fdefe58544",
+        "transaction_type": "Purchase",
+        "amount": 46641,
+        "transaction_date": "2023-09-30T18:21:48.018Z",
+        "created_at": "2023-09-30T19:19:50.336Z",
+        "updated_at": "2023-10-01T00:42:56.598Z",
+        "account_id": "bb05cfc3-ddd4-4f02-865c-bdbd9ca6bf08"
+      },
+      {
+        "id": "01582631-10db-4e8f-add0-bb027d4da478",
+        "transaction_type": "Sale",
+        "amount": 32313,
+        "transaction_date": "2023-09-30T01:18:09.724Z",
+        "created_at": "2023-09-30T21:22:11.037Z",
+        "updated_at": "2023-09-30T14:39:27.356Z",
+        "account_id": "bb05cfc3-ddd4-4f02-865c-bdbd9ca6bf08"
+      },
+      {
+        "id": "710e768c-69eb-43b0-b0b9-5e93a385e5f1",
+        "transaction_type": "Payment",
+        "amount": 89250,
+        "transaction_date": "2023-09-30T14:53:15.833Z",
+        "created_at": "2023-09-30T05:40:02.835Z",
+        "updated_at": "2023-09-30T05:45:40.477Z",
+        "account_id": "bb05cfc3-ddd4-4f02-865c-bdbd9ca6bf08"
+      },
+      {
+        "id": "1d056b2d-0a4b-4803-9f64-909289a24be0",
+        "transaction_type": "Deposit",
+        "amount": 7492,
+        "transaction_date": "2023-09-30T20:29:50.131Z",
+        "created_at": "2023-09-30T18:54:55.455Z",
+        "updated_at": "2023-09-30T07:11:45.710Z",
+        "account_id": "f82245d0-a2e8-42cf-bb65-2a3238e3bf29"
+      },
+      {
+        "id": "72fdce54-b3da-4727-811d-7ad03e6f8b74",
+        "transaction_type": "Withdrawal",
+        "amount": 83054,
+        "transaction_date": "2023-09-30T22:07:09.491Z",
+        "created_at": "2023-09-30T16:35:21.486Z",
+        "updated_at": "2023-09-30T09:53:15.782Z",
+        "account_id": "8747c14a-7cbd-40fb-9929-ef7e30282b6f"
+      }
+    ],
+    "journal": [
+      {
+        "id": "9bf31fcb-0ec7-4211-9ed1-a37c2e18fd4f",
+        "entry_date": "2023-09-30T02:35:41.613Z",
+        "description": "Journal entry 1",
+        "debit": 55363,
+        "credit": 15995,
+        "created_at": "2023-09-30T04:18:28.122Z",
+        "updated_at": "2023-09-30T13:30:17.679Z",
+        "account_id": "89f1e4d7-4beb-4041-8610-a18fe3cf5f75"
+      },
+      {
+        "id": "2fbbd440-7574-425a-9773-591b0acd130c",
+        "entry_date": "2023-09-30T17:45:11.496Z",
+        "description": "Journal entry 2",
+        "debit": 95353,
+        "credit": 70447,
+        "created_at": "2023-09-30T15:26:37.764Z",
+        "updated_at": "2023-09-30T07:34:02.437Z",
+        "account_id": "be8ea322-ddbe-4750-8fa2-33d692e4a927"
+      },
+      {
+        "id": "1872932b-7dbe-4b04-957b-10ef407ccaa1",
+        "entry_date": "2023-09-30T13:49:22.470Z",
+        "description": "Journal entry 3",
+        "debit": 12682,
+        "credit": 58855,
+        "created_at": "2023-09-30T20:25:18.891Z",
+        "updated_at": "2023-09-30T17:19:27.119Z",
+        "account_id": "bb05cfc3-ddd4-4f02-865c-bdbd9ca6bf08"
+      },
+      {
+        "id": "5f9e349e-2f2a-4de8-8b9d-9420e48e0df3",
+        "entry_date": "2023-09-30T08:47:43.763Z",
+        "description": "Journal entry 4",
+        "debit": 10175,
+        "credit": 33429,
+        "created_at": "2023-09-30T18:03:39.474Z",
+        "updated_at": "2023-09-30T01:55:24.856Z",
+        "account_id": "f82245d0-a2e8-42cf-bb65-2a3238e3bf29"
+      },
+      {
+        "id": "b6d96527-5377-477e-a7c9-ddf924a467ff",
+        "entry_date": "2023-09-30T06:32:43.211Z",
+        "description": "Journal entry 5",
+        "debit": 85401,
+        "credit": 56147,
+        "created_at": "2023-09-30T02:13:57.656Z",
+        "updated_at": "2023-09-30T14:48:23.416Z",
+        "account_id": "8747c14a-7cbd-40fb-9929-ef7e30282b6f"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b6320e75-bd43-4fa8-a8c6-2d1d18d433f8",
+        "email": "Eino_Hammes@roq.tech",
+        "firstName": "Margot",
+        "lastName": "Fay",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/404.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "17773aeb-4004-413c-a06c-cff517aff2a9",
+        "email": "Lisa88@roq.tech",
+        "firstName": "Oceane",
+        "lastName": "Conroy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/542.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "979c936f-7f7e-4579-b434-e4646d079322",
+        "email": "Thurman_Beer@roq.tech",
+        "firstName": "Lavina",
+        "lastName": "Harber",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57993129",
+        "tenantId": null
+      },
+      {
+        "reference": "b70f3068-8e46-492a-9236-a7d2b9be5248",
+        "email": "Kali20@roq.tech",
+        "firstName": "Jason",
+        "lastName": "Franecki",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7027757",
+        "tenantId": null
+      },
+      {
+        "reference": "850cc5f8-7fcb-4c01-a391-1fdb736dc55d",
+        "email": "Pearlie_Thompson72@roq.tech",
+        "firstName": "Maxie",
+        "lastName": "Treutel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/35.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "inventory": [
+      {
+        "id": "04c73fe7-1269-42b6-9e46-b617a7fb1d64",
+        "product_name": "iPhone",
+        "quantity": 25410,
+        "price": 83612,
+        "supplier": "Apple Inc.",
+        "created_at": "2023-09-30T09:57:55.972Z",
+        "updated_at": "2023-09-30T12:40:28.240Z"
+      },
+      {
+        "id": "89399a27-d673-4d72-8e28-709f0681bb26",
+        "product_name": "Samsung Galaxy",
+        "quantity": 31226,
+        "price": 60023,
+        "supplier": "Samsung Electronics",
+        "created_at": "2023-09-30T20:05:44.857Z",
+        "updated_at": "2023-09-30T21:33:17.499Z"
+      },
+      {
+        "id": "019bcd2f-16cf-4188-901f-656dec07a9fe",
+        "product_name": "Sony PlayStation",
+        "quantity": 26701,
+        "price": 29770,
+        "supplier": "Sony Corporation",
+        "created_at": "2023-10-01T00:05:26.434Z",
+        "updated_at": "2023-09-30T13:43:52.917Z"
+      },
+      {
+        "id": "df85fd3f-3ae9-4fbf-9049-234cfa47def6",
+        "product_name": "Dell Laptop",
+        "quantity": 41239,
+        "price": 82373,
+        "supplier": "Dell Technologies",
+        "created_at": "2023-09-30T05:19:55.206Z",
+        "updated_at": "2023-09-30T23:18:06.797Z"
+      },
+      {
+        "id": "11c04337-17b9-43d9-a43a-d55928df5425",
+        "product_name": "HP Printer",
+        "quantity": 28921,
+        "price": 87705,
+        "supplier": "HP Inc.",
+        "created_at": "2023-09-30T06:26:42.323Z",
+        "updated_at": "2023-09-30T19:17:14.335Z"
+      }
+    ],
+    "account": [
+      {
+        "id": "b66eebb7-7a01-4ed5-9207-f06d827f1c7a",
+        "account_number": "1234567890",
+        "account_type": "Savings",
+        "balance": 42914,
+        "created_at": "2023-09-30T22:13:56.765Z",
+        "updated_at": "2023-09-30T06:55:15.538Z"
+      },
+      {
+        "id": "38c8d2d4-58e1-4495-98b6-c62584a1ef7c",
+        "account_number": "0987654321",
+        "account_type": "Checking",
+        "balance": 51018,
+        "created_at": "2023-09-30T08:03:13.741Z",
+        "updated_at": "2023-09-30T18:44:52.136Z"
+      },
+      {
+        "id": "b28e59a6-1059-4c0d-be85-68eedb1da200",
+        "account_number": "9876543210",
+        "account_type": "Credit Card",
+        "balance": 80487,
+        "created_at": "2023-09-30T20:14:29.357Z",
+        "updated_at": "2023-09-30T06:39:39.884Z"
+      },
+      {
+        "id": "9d67532a-7b79-4d55-8d78-9fc4d57c8f8e",
+        "account_number": "0123456789",
+        "account_type": "Investment",
+        "balance": 23911,
+        "created_at": "2023-09-30T22:17:21.572Z",
+        "updated_at": "2023-09-30T08:45:13.076Z"
+      },
+      {
+        "id": "18d6e9b3-2f51-4277-80bb-16745724ad55",
+        "account_number": "5432109876",
+        "account_type": "Loan",
+        "balance": 49349,
+        "created_at": "2023-09-30T02:27:03.904Z",
+        "updated_at": "2023-09-30T14:22:34.901Z"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "d4dc35a2-97af-4d02-91e5-542bb56e1324",
+        "transaction_type": "Purchase",
+        "amount": 48120,
+        "transaction_date": "2023-09-30T23:02:02.332Z",
+        "created_at": "2023-09-30T14:49:48.991Z",
+        "updated_at": "2023-09-30T09:37:02.161Z",
+        "account_id": "9d67532a-7b79-4d55-8d78-9fc4d57c8f8e"
+      },
+      {
+        "id": "3c82893f-a0e8-45a0-b1ee-7f7e040846b3",
+        "transaction_type": "Sale",
+        "amount": 70544,
+        "transaction_date": "2023-09-30T10:21:28.384Z",
+        "created_at": "2023-09-30T06:48:19.446Z",
+        "updated_at": "2023-09-30T22:30:45.201Z",
+        "account_id": "38c8d2d4-58e1-4495-98b6-c62584a1ef7c"
+      },
+      {
+        "id": "f6a80727-11ef-4005-a2a7-007b51708cf4",
+        "transaction_type": "Deposit",
+        "amount": 84247,
+        "transaction_date": "2023-09-30T14:00:36.721Z",
+        "created_at": "2023-09-30T23:32:37.292Z",
+        "updated_at": "2023-09-30T14:53:12.279Z",
+        "account_id": "b66eebb7-7a01-4ed5-9207-f06d827f1c7a"
+      },
+      {
+        "id": "f5edcbd1-6956-472d-82d1-dbcf74cb5ed8",
+        "transaction_type": "Withdrawal",
+        "amount": 31867,
+        "transaction_date": "2023-09-30T21:01:59.505Z",
+        "created_at": "2023-09-30T05:18:02.486Z",
+        "updated_at": "2023-09-30T06:55:57.950Z",
+        "account_id": "b28e59a6-1059-4c0d-be85-68eedb1da200"
+      },
+      {
+        "id": "d2e1a7a8-e415-4aa1-b4ac-ff30ee23b998",
+        "transaction_type": "Transfer",
+        "amount": 87728,
+        "transaction_date": "2023-09-30T07:29:04.583Z",
+        "created_at": "2023-09-30T21:46:29.897Z",
+        "updated_at": "2023-09-30T23:27:18.316Z",
+        "account_id": "38c8d2d4-58e1-4495-98b6-c62584a1ef7c"
+      }
+    ],
+    "journal": [
+      {
+        "id": "123013d8-40bc-4a5f-9ad2-b633b447bc31",
+        "entry_date": "2023-09-30T22:12:35.761Z",
+        "description": "Meeting Notes",
+        "debit": 21160,
+        "credit": 78125,
+        "created_at": "2023-09-30T23:45:40.767Z",
+        "updated_at": "2023-09-30T19:39:27.396Z",
+        "account_id": "38c8d2d4-58e1-4495-98b6-c62584a1ef7c"
+      },
+      {
+        "id": "4f0eaf16-d14e-4007-829c-fa247f66b160",
+        "entry_date": "2023-09-30T13:17:14.078Z",
+        "description": "Financial Report",
+        "debit": 70399,
+        "credit": 99391,
+        "created_at": "2023-09-30T10:29:08.339Z",
+        "updated_at": "2023-09-30T18:09:39.371Z",
+        "account_id": "38c8d2d4-58e1-4495-98b6-c62584a1ef7c"
+      },
+      {
+        "id": "27a9b877-a9c7-4784-92ef-148b3fd594a7",
+        "entry_date": "2023-09-30T15:48:42.149Z",
+        "description": "Project Proposal",
+        "debit": 61956,
+        "credit": 43683,
+        "created_at": "2023-10-01T00:30:05.170Z",
+        "updated_at": "2023-09-30T21:34:41.776Z",
+        "account_id": "b28e59a6-1059-4c0d-be85-68eedb1da200"
+      },
+      {
+        "id": "3e12a9eb-3cb1-437a-8c28-7448a87a4e75",
+        "entry_date": "2023-09-30T05:58:08.122Z",
+        "description": "Training Manual",
+        "debit": 61233,
+        "credit": 97832,
+        "created_at": "2023-09-30T05:07:46.556Z",
+        "updated_at": "2023-09-30T14:15:37.372Z",
+        "account_id": "b28e59a6-1059-4c0d-be85-68eedb1da200"
+      },
+      {
+        "id": "148ec739-6aba-43aa-a87e-b09fc32378c6",
+        "entry_date": "2023-09-30T06:49:33.380Z",
+        "description": "Marketing Plan",
+        "debit": 84644,
+        "credit": 33600,
+        "created_at": "2023-09-30T14:58:59.647Z",
+        "updated_at": "2023-09-30T22:50:12.000Z",
+        "account_id": "9d67532a-7b79-4d55-8d78-9fc4d57c8f8e"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6db8e2be-e760-4150-b6bb-adb02152bfc5",
+        "email": "Raymundo.OKon58@roq.tech",
+        "firstName": "Tracy",
+        "lastName": "Cummerata",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49785891",
+        "tenantId": null
+      },
+      {
+        "reference": "31817c69-8fbc-4567-819d-13e1e388eef5",
+        "email": "Rose_Nitzsche@roq.tech",
+        "firstName": "Everett",
+        "lastName": "Howell",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61843774",
+        "tenantId": null
+      },
+      {
+        "reference": "2866197c-05c1-4e11-a0d8-738627d837ae",
+        "email": "Eduardo_Ziemann@roq.tech",
+        "firstName": "Aaliyah",
+        "lastName": "Johnston",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/745.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a1ebfc5a-90bf-4c8f-a41f-8da6554cea4e",
+        "email": "Shawna.Hodkiewicz@roq.tech",
+        "firstName": "Hillary",
+        "lastName": "Greenfelder",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5793953",
+        "tenantId": null
+      },
+      {
+        "reference": "4616d6de-ad24-497c-bed8-3828094add65",
+        "email": "Reina_Raynor50@roq.tech",
+        "firstName": "Lynn",
+        "lastName": "Turner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66369435",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "inventory": [
+      {
+        "id": "7c29b2c3-13be-4a7c-933d-3f11c3dae1ef",
+        "product_name": "Product A",
+        "quantity": 84620,
+        "price": 58847,
+        "supplier": "Supplier A",
+        "created_at": "2023-09-30T21:41:24.599Z",
+        "updated_at": "2023-09-30T23:03:14.394Z"
+      },
+      {
+        "id": "001a6c08-c632-48a6-a08f-900a09134f85",
+        "product_name": "Product B",
+        "quantity": 1775,
+        "price": 40206,
+        "supplier": "Supplier B",
+        "created_at": "2023-09-30T23:07:05.683Z",
+        "updated_at": "2023-10-01T00:58:58.582Z"
+      },
+      {
+        "id": "5d1fa869-4d09-415d-bf61-8c7c1582b33f",
+        "product_name": "Product C",
+        "quantity": 36170,
+        "price": 29761,
+        "supplier": "Supplier C",
+        "created_at": "2023-09-30T01:30:48.349Z",
+        "updated_at": "2023-09-30T23:18:00.147Z"
+      },
+      {
+        "id": "bf85de29-9422-4e04-9882-1cab322c5559",
+        "product_name": "Product D",
+        "quantity": 14038,
+        "price": 97070,
+        "supplier": "Supplier D",
+        "created_at": "2023-09-30T11:02:22.365Z",
+        "updated_at": "2023-10-01T00:27:06.735Z"
+      },
+      {
+        "id": "bca697f1-1d79-4721-8f3c-a303a5ae1220",
+        "product_name": "Product E",
+        "quantity": 79936,
+        "price": 32714,
+        "supplier": "Supplier E",
+        "created_at": "2023-09-30T16:47:53.754Z",
+        "updated_at": "2023-09-30T05:20:42.202Z"
+      }
+    ],
+    "account": [
+      {
+        "id": "32dcd711-3335-4f41-b1c9-fc1ed928c22e",
+        "account_number": "1234567890",
+        "account_type": "Savings",
+        "balance": 90014,
+        "created_at": "2023-09-30T21:13:42.700Z",
+        "updated_at": "2023-09-30T23:05:11.801Z"
+      },
+      {
+        "id": "c84af548-55cd-4efc-8b26-a8723ce369ef",
+        "account_number": "9876543210",
+        "account_type": "Checking",
+        "balance": 48556,
+        "created_at": "2023-09-30T12:11:02.143Z",
+        "updated_at": "2023-09-30T04:58:56.589Z"
+      },
+      {
+        "id": "da5ad03a-862b-484a-9efc-d8bba4e9caa7",
+        "account_number": "2468135790",
+        "account_type": "Credit",
+        "balance": 43215,
+        "created_at": "2023-09-30T06:44:03.023Z",
+        "updated_at": "2023-09-30T03:13:03.732Z"
+      },
+      {
+        "id": "8b5f35c7-45d1-48c9-bbbc-c8240a36edd9",
+        "account_number": "1357924680",
+        "account_type": "Investment",
+        "balance": 74321,
+        "created_at": "2023-09-30T13:42:52.856Z",
+        "updated_at": "2023-09-30T19:22:17.820Z"
+      },
+      {
+        "id": "6e30ecc9-d896-4444-bf5b-c34096f75684",
+        "account_number": "8642097531",
+        "account_type": "Loan",
+        "balance": 82869,
+        "created_at": "2023-09-30T05:37:22.602Z",
+        "updated_at": "2023-09-30T13:59:22.334Z"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "f0c9ba64-9b4d-4161-9da3-0820dd19255c",
+        "transaction_type": "Purchase",
+        "amount": 32452,
+        "transaction_date": "2023-09-30T10:33:01.111Z",
+        "created_at": "2023-09-30T16:43:17.482Z",
+        "updated_at": "2023-09-30T23:28:54.327Z",
+        "account_id": "8b5f35c7-45d1-48c9-bbbc-c8240a36edd9"
+      },
+      {
+        "id": "630cacae-2ecf-4fac-a969-0a63393a66af",
+        "transaction_type": "Sale",
+        "amount": 78051,
+        "transaction_date": "2023-09-30T08:08:20.156Z",
+        "created_at": "2023-09-30T17:43:43.617Z",
+        "updated_at": "2023-09-30T04:53:59.362Z",
+        "account_id": "32dcd711-3335-4f41-b1c9-fc1ed928c22e"
+      },
+      {
+        "id": "4cf8b3fa-7c0e-4038-ad4b-2608c832a502",
+        "transaction_type": "Payment",
+        "amount": 26342,
+        "transaction_date": "2023-09-30T09:45:46.815Z",
+        "created_at": "2023-09-30T04:31:49.907Z",
+        "updated_at": "2023-09-30T14:37:16.425Z",
+        "account_id": "6e30ecc9-d896-4444-bf5b-c34096f75684"
+      },
+      {
+        "id": "fbdf0072-9ba8-4298-9a87-ddd1bb83bef9",
+        "transaction_type": "Deposit",
+        "amount": 75313,
+        "transaction_date": "2023-09-30T15:17:52.851Z",
+        "created_at": "2023-09-30T16:45:09.941Z",
+        "updated_at": "2023-09-30T04:36:05.524Z",
+        "account_id": "6e30ecc9-d896-4444-bf5b-c34096f75684"
+      },
+      {
+        "id": "4476af61-6296-4ed8-9cb0-3fd046076e23",
+        "transaction_type": "Withdrawal",
+        "amount": 2994,
+        "transaction_date": "2023-09-30T06:38:57.005Z",
+        "created_at": "2023-09-30T04:05:41.126Z",
+        "updated_at": "2023-09-30T03:16:00.783Z",
+        "account_id": "32dcd711-3335-4f41-b1c9-fc1ed928c22e"
+      }
+    ],
+    "journal": [
+      {
+        "id": "3d17c252-cf60-4e09-9767-606966122ae5",
+        "entry_date": "2023-09-30T19:13:06.321Z",
+        "description": "Journal 1",
+        "debit": 94723,
+        "credit": 78503,
+        "created_at": "2023-09-30T18:54:24.894Z",
+        "updated_at": "2023-09-30T19:36:03.547Z",
+        "account_id": "8b5f35c7-45d1-48c9-bbbc-c8240a36edd9"
+      },
+      {
+        "id": "2b93b1f1-d5e2-40dc-af9d-45786b33afcc",
+        "entry_date": "2023-09-30T06:57:39.298Z",
+        "description": "Journal 2",
+        "debit": 12072,
+        "credit": 21410,
+        "created_at": "2023-09-30T17:49:56.444Z",
+        "updated_at": "2023-09-30T20:05:24.371Z",
+        "account_id": "6e30ecc9-d896-4444-bf5b-c34096f75684"
+      },
+      {
+        "id": "462496b6-7ec0-404a-8d95-28c8532cb54a",
+        "entry_date": "2023-09-30T22:24:58.773Z",
+        "description": "Journal 3",
+        "debit": 99252,
+        "credit": 44937,
+        "created_at": "2023-09-30T03:01:28.620Z",
+        "updated_at": "2023-09-30T16:31:55.731Z",
+        "account_id": "da5ad03a-862b-484a-9efc-d8bba4e9caa7"
+      },
+      {
+        "id": "b931a7b1-9b9d-4d52-941e-e045d6bb0235",
+        "entry_date": "2023-09-30T03:42:06.095Z",
+        "description": "Journal 4",
+        "debit": 52566,
+        "credit": 93440,
+        "created_at": "2023-09-30T16:33:42.035Z",
+        "updated_at": "2023-09-30T22:12:51.425Z",
+        "account_id": "6e30ecc9-d896-4444-bf5b-c34096f75684"
+      },
+      {
+        "id": "06437ec4-9bb5-4f29-8752-21258c43b983",
+        "entry_date": "2023-09-30T16:39:56.506Z",
+        "description": "Journal 5",
+        "debit": 86947,
+        "credit": 7815,
+        "created_at": "2023-09-30T17:15:48.463Z",
+        "updated_at": "2023-09-30T10:08:25.821Z",
+        "account_id": "c84af548-55cd-4efc-8b26-a8723ce369ef"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b556a0bc-f940-49e6-a19b-43b25c2a7d70",
+        "email": "Ardella51@roq.tech",
+        "firstName": "Seamus",
+        "lastName": "O'Hara",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/625.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "17cbff33-140c-4356-898a-975ed38ca3c8",
+        "email": "Heidi.Kunze@roq.tech",
+        "firstName": "Alexanne",
+        "lastName": "Ullrich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83388417",
+        "tenantId": null
+      },
+      {
+        "reference": "256a6c3b-3dac-45be-b56f-3ee9318c6a0b",
+        "email": "Shayne.Gulgowski88@roq.tech",
+        "firstName": "Haleigh",
+        "lastName": "Ledner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42237808",
+        "tenantId": null
+      },
+      {
+        "reference": "f2a62b67-8bf6-4937-bc44-8f1fc0c6fc4c",
+        "email": "Theresia84@roq.tech",
+        "firstName": "Mertie",
+        "lastName": "Price",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/699.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "798a3181-0a94-4823-a2c7-606ec0ac0eb8",
+        "email": "Mario23@roq.tech",
+        "firstName": "Eulah",
+        "lastName": "Ondricka",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/980.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "inventory": [
+      {
+        "id": "5992fd79-756c-4945-ab89-2a254f738aaa",
+        "product_name": "Product 1",
+        "quantity": 746,
+        "price": 55733,
+        "supplier": "Supplier A",
+        "created_at": "2023-09-30T16:12:58.062Z",
+        "updated_at": "2023-09-30T10:36:34.711Z"
+      },
+      {
+        "id": "f26b3d4a-51d9-4d27-97bf-588353664916",
+        "product_name": "Product 2",
+        "quantity": 49886,
+        "price": 72239,
+        "supplier": "Supplier B",
+        "created_at": "2023-09-30T23:02:56.388Z",
+        "updated_at": "2023-09-30T01:26:25.106Z"
+      },
+      {
+        "id": "60cd7b7e-530f-4fdb-a1f5-aa4a899edb70",
+        "product_name": "Product 3",
+        "quantity": 47165,
+        "price": 32100,
+        "supplier": "Supplier C",
+        "created_at": "2023-09-30T23:55:21.309Z",
+        "updated_at": "2023-09-30T13:18:12.515Z"
+      },
+      {
+        "id": "800de833-b16d-49c9-8980-546d923e36a3",
+        "product_name": "Product 4",
+        "quantity": 55844,
+        "price": 65179,
+        "supplier": "Supplier D",
+        "created_at": "2023-09-30T03:04:32.404Z",
+        "updated_at": "2023-10-01T00:11:27.246Z"
+      },
+      {
+        "id": "896bb936-b108-4ccd-98df-69f3497b5d94",
+        "product_name": "Product 5",
+        "quantity": 90894,
+        "price": 71293,
+        "supplier": "Supplier E",
+        "created_at": "2023-09-30T23:00:27.692Z",
+        "updated_at": "2023-09-30T05:50:57.229Z"
+      }
+    ],
+    "account": [
+      {
+        "id": "317ab541-ecb1-4e5c-995e-14e5f33c138b",
+        "account_number": "1234567890",
+        "account_type": "Savings",
+        "balance": 68136,
+        "created_at": "2023-09-30T01:56:16.123Z",
+        "updated_at": "2023-09-30T05:51:48.891Z"
+      },
+      {
+        "id": "ece4e738-3c12-4e80-8fe2-b8b8447352fa",
+        "account_number": "0987654321",
+        "account_type": "Checking",
+        "balance": 70072,
+        "created_at": "2023-10-01T00:55:15.085Z",
+        "updated_at": "2023-09-30T08:44:50.718Z"
+      },
+      {
+        "id": "0c50f718-c532-4fa4-9e14-05e626af9cde",
+        "account_number": "5678901234",
+        "account_type": "Credit",
+        "balance": 84409,
+        "created_at": "2023-09-30T11:40:16.684Z",
+        "updated_at": "2023-09-30T10:49:33.398Z"
+      },
+      {
+        "id": "b82e7300-e670-42c2-95e1-ef06d87a7bd9",
+        "account_number": "4321098765",
+        "account_type": "Investment",
+        "balance": 69848,
+        "created_at": "2023-09-30T11:55:34.248Z",
+        "updated_at": "2023-09-30T08:17:32.772Z"
+      },
+      {
+        "id": "260b7929-c5cd-49f3-8612-54b86f772bb2",
+        "account_number": "9876543210",
+        "account_type": "Loan",
+        "balance": 40751,
+        "created_at": "2023-09-30T23:27:07.895Z",
+        "updated_at": "2023-09-30T11:58:59.588Z"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "6123b631-b257-41dd-9e08-de2afd215131",
+        "transaction_type": "Purchase",
+        "amount": 71781,
+        "transaction_date": "2023-09-30T17:18:22.136Z",
+        "created_at": "2023-09-30T03:21:49.994Z",
+        "updated_at": "2023-09-30T21:29:35.594Z",
+        "account_id": "317ab541-ecb1-4e5c-995e-14e5f33c138b"
+      },
+      {
+        "id": "c6719c9f-6cf3-4319-baf3-d22c1329406e",
+        "transaction_type": "Sale",
+        "amount": 4121,
+        "transaction_date": "2023-09-30T03:18:27.605Z",
+        "created_at": "2023-09-30T09:34:27.207Z",
+        "updated_at": "2023-09-30T19:17:19.408Z",
+        "account_id": "317ab541-ecb1-4e5c-995e-14e5f33c138b"
+      },
+      {
+        "id": "182fc97a-69cd-4975-8ce2-b84f6d89ec49",
+        "transaction_type": "Deposit",
+        "amount": 8379,
+        "transaction_date": "2023-10-01T00:09:26.769Z",
+        "created_at": "2023-09-30T22:04:26.369Z",
+        "updated_at": "2023-09-30T17:54:52.610Z",
+        "account_id": "0c50f718-c532-4fa4-9e14-05e626af9cde"
+      },
+      {
+        "id": "bbb2bbba-9252-4c78-921e-15908bddbe69",
+        "transaction_type": "Withdrawal",
+        "amount": 83159,
+        "transaction_date": "2023-09-30T05:46:00.381Z",
+        "created_at": "2023-09-30T16:36:13.323Z",
+        "updated_at": "2023-09-30T09:26:08.153Z",
+        "account_id": "b82e7300-e670-42c2-95e1-ef06d87a7bd9"
+      },
+      {
+        "id": "7256361c-2579-4b31-861e-a6b9078d4f30",
+        "transaction_type": "Transfer",
+        "amount": 31889,
+        "transaction_date": "2023-10-01T00:58:40.459Z",
+        "created_at": "2023-09-30T05:19:14.823Z",
+        "updated_at": "2023-09-30T21:33:58.275Z",
+        "account_id": "b82e7300-e670-42c2-95e1-ef06d87a7bd9"
+      }
+    ],
+    "journal": [
+      {
+        "id": "828cf4cf-0464-446a-9073-6e5a55287078",
+        "entry_date": "2023-09-30T16:12:40.946Z",
+        "description": "Journal entry 1",
+        "debit": 34573,
+        "credit": 83983,
+        "created_at": "2023-10-01T00:51:38.198Z",
+        "updated_at": "2023-09-30T02:03:13.663Z",
+        "account_id": "317ab541-ecb1-4e5c-995e-14e5f33c138b"
+      },
+      {
+        "id": "36bdf69c-fd86-4a34-910c-60059050064f",
+        "entry_date": "2023-09-30T21:48:31.244Z",
+        "description": "Journal entry 2",
+        "debit": 41517,
+        "credit": 61444,
+        "created_at": "2023-09-30T16:08:28.076Z",
+        "updated_at": "2023-09-30T19:37:29.281Z",
+        "account_id": "0c50f718-c532-4fa4-9e14-05e626af9cde"
+      },
+      {
+        "id": "46661e2a-33ee-46e0-9b5e-2da1a21e418b",
+        "entry_date": "2023-09-30T10:19:38.049Z",
+        "description": "Journal entry 3",
+        "debit": 29186,
+        "credit": 7915,
+        "created_at": "2023-09-30T10:29:11.109Z",
+        "updated_at": "2023-10-01T00:42:27.972Z",
+        "account_id": "ece4e738-3c12-4e80-8fe2-b8b8447352fa"
+      },
+      {
+        "id": "9ad4a0aa-ed4f-4aba-b27c-49af6c3e62f3",
+        "entry_date": "2023-09-30T21:59:31.157Z",
+        "description": "Journal entry 4",
+        "debit": 5035,
+        "credit": 68893,
+        "created_at": "2023-09-30T22:49:04.280Z",
+        "updated_at": "2023-09-30T20:20:08.461Z",
+        "account_id": "b82e7300-e670-42c2-95e1-ef06d87a7bd9"
+      },
+      {
+        "id": "36118976-d117-4360-a1b2-285baa914172",
+        "entry_date": "2023-09-30T05:58:25.006Z",
+        "description": "Journal entry 5",
+        "debit": 58271,
+        "credit": 9042,
+        "created_at": "2023-09-30T04:44:01.392Z",
+        "updated_at": "2023-09-30T05:37:11.497Z",
+        "account_id": "ece4e738-3c12-4e80-8fe2-b8b8447352fa"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3bc6487c-0d65-471f-bb02-41357e7dfccd",
+        "email": "Adrianna_Kilback98@roq.tech",
+        "firstName": "Velma",
+        "lastName": "Padberg",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/221.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cea47e90-ec0a-4e72-b054-0a250b741f20",
+        "email": "Tito.Haag34@roq.tech",
+        "firstName": "Amir",
+        "lastName": "Becker",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79824758",
+        "tenantId": null
+      },
+      {
+        "reference": "75f34dd4-1b65-4168-9e54-d869ae01f861",
+        "email": "Wayne.Smith@roq.tech",
+        "firstName": "Westley",
+        "lastName": "Denesik",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1244.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "acf10d27-6e94-4a79-8861-672e2f353dd3",
+        "email": "Jany_Heller@roq.tech",
+        "firstName": "Regan",
+        "lastName": "O'Reilly-Howe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/317.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "62f10d37-53f9-477d-89d9-7be7ed3da011",
+        "email": "Larissa.Weimann34@roq.tech",
+        "firstName": "Bret",
+        "lastName": "Miller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15842328",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "inventory": [
+      {
+        "id": "06e56b20-0e10-49fc-9cf6-f1cb87052d53",
+        "product_name": "Product 1",
+        "quantity": 65087,
+        "price": 75274,
+        "supplier": "Supplier A",
+        "created_at": "2023-09-30T10:55:51.102Z",
+        "updated_at": "2023-09-30T09:47:56.702Z"
+      },
+      {
+        "id": "04abf58d-d3cc-480a-906b-71457fe364c6",
+        "product_name": "Product 2",
+        "quantity": 78285,
+        "price": 56531,
+        "supplier": "Supplier B",
+        "created_at": "2023-09-30T02:03:51.204Z",
+        "updated_at": "2023-09-30T11:15:00.775Z"
+      },
+      {
+        "id": "409124f5-2889-41df-b13c-a89b34d1b989",
+        "product_name": "Product 3",
+        "quantity": 749,
+        "price": 51871,
+        "supplier": "Supplier C",
+        "created_at": "2023-09-30T13:41:52.613Z",
+        "updated_at": "2023-09-30T20:29:23.698Z"
+      },
+      {
+        "id": "aa7d61f4-8ed7-4a4b-95f2-ddbdbe54c1a6",
+        "product_name": "Product 4",
+        "quantity": 37271,
+        "price": 90469,
+        "supplier": "Supplier D",
+        "created_at": "2023-09-30T20:12:33.309Z",
+        "updated_at": "2023-09-30T07:11:43.557Z"
+      },
+      {
+        "id": "c187cb92-1712-42b3-ad55-b0b5042f4ae3",
+        "product_name": "Product 5",
+        "quantity": 69729,
+        "price": 95587,
+        "supplier": "Supplier E",
+        "created_at": "2023-09-30T11:58:25.032Z",
+        "updated_at": "2023-09-30T07:20:43.485Z"
+      }
+    ],
+    "account": [
+      {
+        "id": "c64531fd-2a8f-4e9a-a2fc-69fd35afc4e5",
+        "account_number": "1234567890",
+        "account_type": "Savings",
+        "balance": 1573,
+        "created_at": "2023-09-30T13:57:21.945Z",
+        "updated_at": "2023-10-01T01:07:59.155Z"
+      },
+      {
+        "id": "612140cd-d3b3-42f7-ba9a-55ff1cd94009",
+        "account_number": "9876543210",
+        "account_type": "Checking",
+        "balance": 69401,
+        "created_at": "2023-09-30T09:09:17.152Z",
+        "updated_at": "2023-09-30T20:43:20.817Z"
+      },
+      {
+        "id": "b034e0ff-7419-4779-a650-a6b74555a443",
+        "account_number": "2468135790",
+        "account_type": "Credit",
+        "balance": 77043,
+        "created_at": "2023-09-30T12:18:59.600Z",
+        "updated_at": "2023-09-30T23:30:49.871Z"
+      },
+      {
+        "id": "0b3ed231-d51e-41b5-8fe0-a31de64fb200",
+        "account_number": "1357924680",
+        "account_type": "Investment",
+        "balance": 10228,
+        "created_at": "2023-09-30T05:19:50.755Z",
+        "updated_at": "2023-09-30T04:33:41.069Z"
+      },
+      {
+        "id": "350ef5a1-877f-47d8-9001-a2acdda4b8a1",
+        "account_number": "8642097531",
+        "account_type": "Loan",
+        "balance": 42215,
+        "created_at": "2023-09-30T19:14:38.570Z",
+        "updated_at": "2023-09-30T11:44:33.151Z"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "b3c30bd4-79b4-4265-a39e-87f50196325f",
+        "transaction_type": "Purchase",
+        "amount": 22780,
+        "transaction_date": "2023-09-30T13:32:58.037Z",
+        "created_at": "2023-09-30T19:46:59.352Z",
+        "updated_at": "2023-09-30T09:00:41.443Z",
+        "account_id": "0b3ed231-d51e-41b5-8fe0-a31de64fb200"
+      },
+      {
+        "id": "8657e7af-c5a9-45ed-b889-b9ab35583906",
+        "transaction_type": "Sale",
+        "amount": 78338,
+        "transaction_date": "2023-09-30T18:47:55.248Z",
+        "created_at": "2023-09-30T10:36:53.293Z",
+        "updated_at": "2023-09-30T10:07:57.394Z",
+        "account_id": "c64531fd-2a8f-4e9a-a2fc-69fd35afc4e5"
+      },
+      {
+        "id": "3413fe92-9c5d-43a1-9396-3fa181b4a75b",
+        "transaction_type": "Transfer",
+        "amount": 84166,
+        "transaction_date": "2023-09-30T06:18:37.728Z",
+        "created_at": "2023-09-30T09:55:50.335Z",
+        "updated_at": "2023-09-30T16:41:09.132Z",
+        "account_id": "612140cd-d3b3-42f7-ba9a-55ff1cd94009"
+      },
+      {
+        "id": "29607bc2-b2d9-42dc-9969-4365ca9fd6da",
+        "transaction_type": "Deposit",
+        "amount": 93746,
+        "transaction_date": "2023-09-30T19:48:34.409Z",
+        "created_at": "2023-09-30T22:57:07.797Z",
+        "updated_at": "2023-09-30T19:34:54.049Z",
+        "account_id": "612140cd-d3b3-42f7-ba9a-55ff1cd94009"
+      },
+      {
+        "id": "656a8e89-ad7f-4208-a412-f1139fd468e7",
+        "transaction_type": "Withdrawal",
+        "amount": 7776,
+        "transaction_date": "2023-09-30T20:35:13.706Z",
+        "created_at": "2023-09-30T05:15:03.957Z",
+        "updated_at": "2023-09-30T06:01:14.707Z",
+        "account_id": "c64531fd-2a8f-4e9a-a2fc-69fd35afc4e5"
+      }
+    ],
+    "journal": [
+      {
+        "id": "4e8b53d0-adc8-4b6c-a0a7-9c98515df236",
+        "entry_date": "2023-09-30T08:43:00.426Z",
+        "description": "Journal 1",
+        "debit": 76843,
+        "credit": 87259,
+        "created_at": "2023-09-30T16:48:22.666Z",
+        "updated_at": "2023-09-30T11:35:20.342Z",
+        "account_id": "0b3ed231-d51e-41b5-8fe0-a31de64fb200"
+      },
+      {
+        "id": "308f1a55-1a50-4638-bd41-59fd8f2ae866",
+        "entry_date": "2023-09-30T01:25:13.378Z",
+        "description": "Journal 2",
+        "debit": 93158,
+        "credit": 83186,
+        "created_at": "2023-09-30T20:07:48.517Z",
+        "updated_at": "2023-09-30T04:24:23.331Z",
+        "account_id": "b034e0ff-7419-4779-a650-a6b74555a443"
+      },
+      {
+        "id": "d424973d-00cc-41a8-8afd-f589f16cc7bd",
+        "entry_date": "2023-09-30T08:02:40.385Z",
+        "description": "Journal 3",
+        "debit": 70640,
+        "credit": 57013,
+        "created_at": "2023-09-30T13:51:49.662Z",
+        "updated_at": "2023-09-30T02:16:37.318Z",
+        "account_id": "612140cd-d3b3-42f7-ba9a-55ff1cd94009"
+      },
+      {
+        "id": "072fbbee-14bf-43d5-9d45-283783012d1a",
+        "entry_date": "2023-09-30T01:31:51.499Z",
+        "description": "Journal 4",
+        "debit": 869,
+        "credit": 96311,
+        "created_at": "2023-09-30T17:59:05.807Z",
+        "updated_at": "2023-09-30T02:21:11.267Z",
+        "account_id": "350ef5a1-877f-47d8-9001-a2acdda4b8a1"
+      },
+      {
+        "id": "cb2555aa-d14c-4315-9e7d-cec0bd50d3d1",
+        "entry_date": "2023-10-01T00:09:09.520Z",
+        "description": "Journal 5",
+        "debit": 4120,
+        "credit": 43503,
+        "created_at": "2023-10-01T00:10:38.569Z",
+        "updated_at": "2023-09-30T04:50:55.411Z",
+        "account_id": "c64531fd-2a8f-4e9a-a2fc-69fd35afc4e5"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0c64193e-5bd0-4932-969c-166721120147",
+        "email": "Gerhard.Weimann-Kerluke93@roq.tech",
+        "firstName": "Eleanora",
+        "lastName": "Pfeffer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/407.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1adb8e9d-8484-4344-9e39-0c57a2ccc1b9",
+        "email": "Opal28@roq.tech",
+        "firstName": "Kasandra",
+        "lastName": "Lehner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41067639",
+        "tenantId": null
+      },
+      {
+        "reference": "eb06245c-0878-4a0b-bff3-b573e88caf67",
+        "email": "Jalyn.Klein@roq.tech",
+        "firstName": "Conrad",
+        "lastName": "Hahn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1005.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5b90797d-b22f-4a45-a5e9-ac7a2fe6cfb6",
+        "email": "Michelle.Kling@roq.tech",
+        "firstName": "Bonita",
+        "lastName": "Tremblay",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/289.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "756e5f52-8088-4988-b845-fa5961a678a5",
+        "email": "Joshua_Raynor@roq.tech",
+        "firstName": "Barrett",
+        "lastName": "Friesen-Stanton",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/77.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "inventory": [
+      {
+        "id": "cf191b3d-f678-46fc-bf42-0e4dadd08470",
+        "product_name": "Product 1",
+        "quantity": 3148,
+        "price": 44399,
+        "supplier": "Supplier A",
+        "created_at": "2023-09-30T01:29:08.076Z",
+        "updated_at": "2023-10-01T01:03:02.919Z"
+      },
+      {
+        "id": "e5e3ec53-8fd1-43bd-9090-7ef56488da45",
+        "product_name": "Product 2",
+        "quantity": 14582,
+        "price": 65618,
+        "supplier": "Supplier B",
+        "created_at": "2023-09-30T23:56:09.167Z",
+        "updated_at": "2023-09-30T03:01:49.316Z"
+      },
+      {
+        "id": "8d2e3e25-33ae-47de-8a67-3572da0fece1",
+        "product_name": "Product 3",
+        "quantity": 24194,
+        "price": 68469,
+        "supplier": "Supplier C",
+        "created_at": "2023-09-30T08:30:20.236Z",
+        "updated_at": "2023-09-30T09:20:14.116Z"
+      },
+      {
+        "id": "7f8a5847-b8ce-495d-a3e9-c4cb1c75a1c8",
+        "product_name": "Product 4",
+        "quantity": 8946,
+        "price": 20788,
+        "supplier": "Supplier D",
+        "created_at": "2023-09-30T06:57:52.717Z",
+        "updated_at": "2023-09-30T08:06:03.088Z"
+      },
+      {
+        "id": "e4003234-cabd-4abe-a5fa-4d1d04f39d82",
+        "product_name": "Product 5",
+        "quantity": 87387,
+        "price": 48159,
+        "supplier": "Supplier E",
+        "created_at": "2023-09-30T18:23:46.095Z",
+        "updated_at": "2023-09-30T10:20:10.654Z"
+      }
+    ],
+    "account": [
+      {
+        "id": "5e6c78ba-1b19-418c-a6ac-b5d782e4deb5",
+        "account_number": "1234567890",
+        "account_type": "Savings",
+        "balance": 9113,
+        "created_at": "2023-09-30T18:09:31.977Z",
+        "updated_at": "2023-09-30T23:57:04.286Z"
+      },
+      {
+        "id": "ef93f262-e6bf-4017-8e45-5aa9eaecee94",
+        "account_number": "9876543210",
+        "account_type": "Checking",
+        "balance": 74499,
+        "created_at": "2023-09-30T13:57:57.574Z",
+        "updated_at": "2023-09-30T08:59:48.703Z"
+      },
+      {
+        "id": "6ae2ab4d-1249-4d73-985d-8ebb39503e89",
+        "account_number": "2468135790",
+        "account_type": "Investment",
+        "balance": 873,
+        "created_at": "2023-09-30T23:37:08.172Z",
+        "updated_at": "2023-09-30T07:37:46.556Z"
+      },
+      {
+        "id": "fbc2dc68-e63c-44fb-a491-b8334dd93d15",
+        "account_number": "1357924680",
+        "account_type": "Credit Card",
+        "balance": 77855,
+        "created_at": "2023-09-30T14:18:19.419Z",
+        "updated_at": "2023-09-30T04:35:43.313Z"
+      },
+      {
+        "id": "0e2efee9-f92d-4b04-b72e-17c0620eda7a",
+        "account_number": "8642097531",
+        "account_type": "Loan",
+        "balance": 204,
+        "created_at": "2023-09-30T13:54:15.336Z",
+        "updated_at": "2023-09-30T03:36:34.569Z"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "45d900da-6ead-4498-af86-12fbcb145f0c",
+        "transaction_type": "Purchase",
+        "amount": 30264,
+        "transaction_date": "2023-09-30T02:36:16.942Z",
+        "created_at": "2023-09-30T09:28:27.209Z",
+        "updated_at": "2023-09-30T09:20:55.485Z",
+        "account_id": "6ae2ab4d-1249-4d73-985d-8ebb39503e89"
+      },
+      {
+        "id": "8a9f24e3-4b42-409f-a0a4-81646dc9d369",
+        "transaction_type": "Sale",
+        "amount": 35261,
+        "transaction_date": "2023-09-30T19:54:44.020Z",
+        "created_at": "2023-09-30T12:37:42.527Z",
+        "updated_at": "2023-09-30T11:13:19.796Z",
+        "account_id": "0e2efee9-f92d-4b04-b72e-17c0620eda7a"
+      },
+      {
+        "id": "d3068e1d-b620-4555-ab22-aade7aad8f09",
+        "transaction_type": "Payment",
+        "amount": 41418,
+        "transaction_date": "2023-09-30T02:37:09.969Z",
+        "created_at": "2023-09-30T22:28:45.169Z",
+        "updated_at": "2023-09-30T18:08:14.048Z",
+        "account_id": "ef93f262-e6bf-4017-8e45-5aa9eaecee94"
+      },
+      {
+        "id": "19d860b0-41fb-4d85-8e61-582e9af6e4bb",
+        "transaction_type": "Transfer",
+        "amount": 70605,
+        "transaction_date": "2023-09-30T23:26:22.709Z",
+        "created_at": "2023-10-01T00:04:59.875Z",
+        "updated_at": "2023-09-30T16:10:42.242Z",
+        "account_id": "5e6c78ba-1b19-418c-a6ac-b5d782e4deb5"
+      },
+      {
+        "id": "aa33509d-7b20-4b19-9c09-0f5fe40ede9a",
+        "transaction_type": "Withdrawal",
+        "amount": 52005,
+        "transaction_date": "2023-09-30T19:55:14.232Z",
+        "created_at": "2023-09-30T14:54:31.396Z",
+        "updated_at": "2023-09-30T08:02:53.891Z",
+        "account_id": "5e6c78ba-1b19-418c-a6ac-b5d782e4deb5"
+      }
+    ],
+    "journal": [
+      {
+        "id": "3f1bebcb-729e-4bc0-a35f-e79ddbd566a8",
+        "entry_date": "2023-09-30T08:58:30.691Z",
+        "description": "Journal 1",
+        "debit": 36364,
+        "credit": 57988,
+        "created_at": "2023-09-30T02:38:28.491Z",
+        "updated_at": "2023-09-30T08:28:44.621Z",
+        "account_id": "0e2efee9-f92d-4b04-b72e-17c0620eda7a"
+      },
+      {
+        "id": "dfc0f060-c4d3-432b-990c-9816721c58ab",
+        "entry_date": "2023-09-30T18:43:47.199Z",
+        "description": "Journal 2",
+        "debit": 22656,
+        "credit": 27962,
+        "created_at": "2023-09-30T05:19:17.134Z",
+        "updated_at": "2023-09-30T21:29:06.805Z",
+        "account_id": "0e2efee9-f92d-4b04-b72e-17c0620eda7a"
+      },
+      {
+        "id": "c6bbefc2-057d-4495-8130-251693040a9e",
+        "entry_date": "2023-09-30T09:30:53.478Z",
+        "description": "Journal 3",
+        "debit": 87404,
+        "credit": 56026,
+        "created_at": "2023-09-30T12:09:55.059Z",
+        "updated_at": "2023-09-30T09:32:41.337Z",
+        "account_id": "5e6c78ba-1b19-418c-a6ac-b5d782e4deb5"
+      },
+      {
+        "id": "5083f300-0355-432f-a5f7-3cba0828747c",
+        "entry_date": "2023-09-30T06:58:37.041Z",
+        "description": "Journal 4",
+        "debit": 17820,
+        "credit": 68648,
+        "created_at": "2023-09-30T18:12:22.471Z",
+        "updated_at": "2023-09-30T19:11:33.068Z",
+        "account_id": "0e2efee9-f92d-4b04-b72e-17c0620eda7a"
+      },
+      {
+        "id": "74d3de5d-be14-4e6c-95f4-d6dd2106e1a4",
+        "entry_date": "2023-09-30T17:26:03.513Z",
+        "description": "Journal 5",
+        "debit": 9277,
+        "credit": 8830,
+        "created_at": "2023-09-30T11:22:44.124Z",
+        "updated_at": "2023-09-30T20:26:21.832Z",
+        "account_id": "6ae2ab4d-1249-4d73-985d-8ebb39503e89"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "06a3ab3a-02e5-40b6-8dec-8d6bc7b680d1",
+        "email": "Bryce_Kshlerin23@roq.tech",
+        "firstName": "Selena",
+        "lastName": "Balistreri",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38652087",
+        "tenantId": null
+      },
+      {
+        "reference": "5980c30f-ca98-439d-8ffd-ab2051e92ec3",
+        "email": "Verdie_Stanton@roq.tech",
+        "firstName": "Santos",
+        "lastName": "Ward",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45062674",
+        "tenantId": null
+      },
+      {
+        "reference": "1ec4a193-f48f-4386-be8f-704f7495bf25",
+        "email": "Dominic79@roq.tech",
+        "firstName": "Hoyt",
+        "lastName": "Homenick",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36115456",
+        "tenantId": null
+      },
+      {
+        "reference": "2914a829-3fdb-4990-b1ae-14e1ee39651a",
+        "email": "Angela.Zemlak1@roq.tech",
+        "firstName": "Carolyne",
+        "lastName": "Hickle",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1130.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "eddd59da-10fd-421a-8d1f-a8003a37e6b4",
+        "email": "Jakayla_Daniel@roq.tech",
+        "firstName": "Odessa",
+        "lastName": "Daniel-Nikolaus",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/517.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "inventory": [
+      {
+        "id": "a50132cb-d752-4c43-8342-0bd1dd8082a3",
+        "product_name": "iPhone",
+        "quantity": 5353,
+        "price": 42265,
+        "supplier": "Apple Inc.",
+        "created_at": "2023-09-30T12:56:49.579Z",
+        "updated_at": "2023-09-30T06:53:20.953Z"
+      },
+      {
+        "id": "e1a1ee54-3bfa-479b-83e6-2033cd5b2b8b",
+        "product_name": "Samsung Galaxy",
+        "quantity": 50405,
+        "price": 41572,
+        "supplier": "Samsung Electronics",
+        "created_at": "2023-09-30T03:34:46.758Z",
+        "updated_at": "2023-09-30T14:03:29.763Z"
+      },
+      {
+        "id": "030c19f0-bdcc-4c44-bb17-d0e16a935e93",
+        "product_name": "MacBook Pro",
+        "quantity": 79606,
+        "price": 79658,
+        "supplier": "Apple Inc.",
+        "created_at": "2023-09-30T10:36:12.643Z",
+        "updated_at": "2023-09-30T12:20:32.802Z"
+      },
+      {
+        "id": "043dfa17-62d0-4917-9cc1-5052d3751acb",
+        "product_name": "Sony PlayStation",
+        "quantity": 28689,
+        "price": 55742,
+        "supplier": "Sony Corporation",
+        "created_at": "2023-09-30T16:18:40.783Z",
+        "updated_at": "2023-09-30T16:20:45.886Z"
+      },
+      {
+        "id": "a6d1195f-07d9-4f20-a965-b00e46462808",
+        "product_name": "Nike Air Max",
+        "quantity": 71855,
+        "price": 96455,
+        "supplier": "Nike, Inc.",
+        "created_at": "2023-09-30T15:49:48.409Z",
+        "updated_at": "2023-09-30T19:49:14.506Z"
+      }
+    ],
+    "account": [
+      {
+        "id": "e82b902b-26ea-496e-8448-07bd8d920092",
+        "account_number": "1234567890",
+        "account_type": "Savings",
+        "balance": 65777,
+        "created_at": "2023-09-30T10:31:24.102Z",
+        "updated_at": "2023-10-01T01:02:49.981Z"
+      },
+      {
+        "id": "da8b2ecc-8dd4-4508-bae1-25d70655d7c0",
+        "account_number": "0987654321",
+        "account_type": "Checking",
+        "balance": 25875,
+        "created_at": "2023-10-01T00:28:21.303Z",
+        "updated_at": "2023-09-30T08:02:29.505Z"
+      },
+      {
+        "id": "795100ee-e2f9-4d2c-9f0b-141149b893c5",
+        "account_number": "2468135790",
+        "account_type": "Investment",
+        "balance": 58314,
+        "created_at": "2023-09-30T14:41:16.590Z",
+        "updated_at": "2023-09-30T15:04:06.718Z"
+      },
+      {
+        "id": "0ef920f2-3f05-4ded-99ef-7b7d3ab552a8",
+        "account_number": "1357924680",
+        "account_type": "Credit Card",
+        "balance": 59585,
+        "created_at": "2023-09-30T13:29:50.491Z",
+        "updated_at": "2023-09-30T03:30:03.260Z"
+      },
+      {
+        "id": "cae152d5-f86c-4b38-96b0-4e3f51fac599",
+        "account_number": "9876543210",
+        "account_type": "Loan",
+        "balance": 75918,
+        "created_at": "2023-09-30T20:13:16.819Z",
+        "updated_at": "2023-09-30T09:09:22.682Z"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "c1e3a310-0e3a-4b0c-8dd5-512d0f566a60",
+        "transaction_type": "Purchase",
+        "amount": 1454,
+        "transaction_date": "2023-09-30T06:03:17.450Z",
+        "created_at": "2023-09-30T20:50:27.140Z",
+        "updated_at": "2023-09-30T08:39:19.995Z",
+        "account_id": "da8b2ecc-8dd4-4508-bae1-25d70655d7c0"
+      },
+      {
+        "id": "8fcb149b-58de-45e4-8bab-3b04bfad57bd",
+        "transaction_type": "Sale",
+        "amount": 7886,
+        "transaction_date": "2023-09-30T16:28:27.725Z",
+        "created_at": "2023-09-30T20:06:17.627Z",
+        "updated_at": "2023-09-30T13:04:17.322Z",
+        "account_id": "e82b902b-26ea-496e-8448-07bd8d920092"
+      },
+      {
+        "id": "867fbfca-bf57-42cb-aef0-fd06ede41bc8",
+        "transaction_type": "Transfer",
+        "amount": 48405,
+        "transaction_date": "2023-09-30T13:35:27.880Z",
+        "created_at": "2023-09-30T07:05:00.276Z",
+        "updated_at": "2023-09-30T23:53:11.758Z",
+        "account_id": "795100ee-e2f9-4d2c-9f0b-141149b893c5"
+      },
+      {
+        "id": "f6d83a75-156a-4a1e-a110-812446d25e98",
+        "transaction_type": "Payment",
+        "amount": 82770,
+        "transaction_date": "2023-09-30T12:24:49.773Z",
+        "created_at": "2023-09-30T05:25:29.578Z",
+        "updated_at": "2023-09-30T10:52:29.297Z",
+        "account_id": "0ef920f2-3f05-4ded-99ef-7b7d3ab552a8"
+      },
+      {
+        "id": "01ee090a-179f-4f8b-8273-93ddaa633e6e",
+        "transaction_type": "Deposit",
+        "amount": 25058,
+        "transaction_date": "2023-09-30T11:56:47.959Z",
+        "created_at": "2023-09-30T07:11:48.154Z",
+        "updated_at": "2023-09-30T16:14:48.020Z",
+        "account_id": "e82b902b-26ea-496e-8448-07bd8d920092"
+      }
+    ],
+    "journal": [
+      {
+        "id": "bf91962d-b7ce-4378-bce6-8ec6af7ea8d1",
+        "entry_date": "2023-09-30T22:05:24.770Z",
+        "description": "Monthly financial report",
+        "debit": 9444,
+        "credit": 2087,
+        "created_at": "2023-10-01T00:28:44.270Z",
+        "updated_at": "2023-09-30T10:03:47.768Z",
+        "account_id": "e82b902b-26ea-496e-8448-07bd8d920092"
+      },
+      {
+        "id": "26cf8959-595a-4928-93a7-14f3e68e770d",
+        "entry_date": "2023-09-30T09:47:05.042Z",
+        "description": "Meeting minutes",
+        "debit": 71085,
+        "credit": 88808,
+        "created_at": "2023-10-01T01:02:00.762Z",
+        "updated_at": "2023-09-30T12:31:00.495Z",
+        "account_id": "0ef920f2-3f05-4ded-99ef-7b7d3ab552a8"
+      },
+      {
+        "id": "224f9fcb-5ce4-4301-b2d5-c5cfb82e8ce2",
+        "entry_date": "2023-09-30T20:41:12.591Z",
+        "description": "Project proposal",
+        "debit": 13000,
+        "credit": 37275,
+        "created_at": "2023-09-30T18:46:36.976Z",
+        "updated_at": "2023-09-30T07:41:47.129Z",
+        "account_id": "e82b902b-26ea-496e-8448-07bd8d920092"
+      },
+      {
+        "id": "5f4536b1-ca33-4077-86f0-b3f12e9c7f79",
+        "entry_date": "2023-09-30T06:25:38.697Z",
+        "description": "Expense reimbursement",
+        "debit": 54460,
+        "credit": 39146,
+        "created_at": "2023-09-30T06:01:53.500Z",
+        "updated_at": "2023-09-30T13:51:15.507Z",
+        "account_id": "0ef920f2-3f05-4ded-99ef-7b7d3ab552a8"
+      },
+      {
+        "id": "5d315278-f4fd-476d-a815-c935603a83fb",
+        "entry_date": "2023-10-01T00:02:55.677Z",
+        "description": "Training session",
+        "debit": 70899,
+        "credit": 21560,
+        "created_at": "2023-09-30T10:09:46.870Z",
+        "updated_at": "2023-09-30T10:28:31.971Z",
+        "account_id": "cae152d5-f86c-4b38-96b0-4e3f51fac599"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1eb39fb5-6ab5-4af8-a737-0dcdafd12ab9",
+        "email": "Jerrod_Lind9@roq.tech",
+        "firstName": "Clementine",
+        "lastName": "Hegmann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29875002",
+        "tenantId": null
+      },
+      {
+        "reference": "eba59c67-b931-44d2-a56a-65a7100f8b5f",
+        "email": "Marguerite94@roq.tech",
+        "firstName": "Alexandrea",
+        "lastName": "Bode",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/490.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1008ff5b-dab2-4dc6-b0a1-3bf4155e0051",
+        "email": "Kenneth4@roq.tech",
+        "firstName": "Sean",
+        "lastName": "Hayes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/135.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "db5adb4f-37de-405c-9946-9a29d0146dfd",
+        "email": "Delbert77@roq.tech",
+        "firstName": "Bernadette",
+        "lastName": "Beahan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12274797",
+        "tenantId": null
+      },
+      {
+        "reference": "74448cdc-bc7a-424d-801d-6b25c693cb89",
+        "email": "Declan_Schmidt@roq.tech",
+        "firstName": "Raegan",
+        "lastName": "Rolfson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/179.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "inventory": [
+      {
+        "id": "507e06c8-4c63-4f10-9770-8cb7acb68779",
+        "product_name": "Product 1",
+        "quantity": 9236,
+        "price": 94727,
+        "supplier": "Supplier A",
+        "created_at": "2023-09-30T03:22:22.846Z",
+        "updated_at": "2023-09-30T02:05:09.669Z"
+      },
+      {
+        "id": "8f5f4b6c-0d51-4f16-a7d9-9af957d2ab4c",
+        "product_name": "Product 2",
+        "quantity": 11718,
+        "price": 6150,
+        "supplier": "Supplier B",
+        "created_at": "2023-09-30T05:03:50.954Z",
+        "updated_at": "2023-09-30T13:34:08.896Z"
+      },
+      {
+        "id": "ea4b1e3a-6a1a-47e9-a791-d564dfda526f",
+        "product_name": "Product 3",
+        "quantity": 47913,
+        "price": 33914,
+        "supplier": "Supplier C",
+        "created_at": "2023-09-30T14:20:17.101Z",
+        "updated_at": "2023-09-30T05:49:46.503Z"
+      },
+      {
+        "id": "fc9b44c7-01c3-478d-9a03-97b2036396cb",
+        "product_name": "Product 4",
+        "quantity": 17068,
+        "price": 16649,
+        "supplier": "Supplier D",
+        "created_at": "2023-09-30T02:28:54.543Z",
+        "updated_at": "2023-10-01T00:49:39.803Z"
+      },
+      {
+        "id": "ddad26d0-d5ed-48e6-8b71-84a7a3c5981a",
+        "product_name": "Product 5",
+        "quantity": 72956,
+        "price": 42038,
+        "supplier": "Supplier E",
+        "created_at": "2023-09-30T12:01:35.647Z",
+        "updated_at": "2023-09-30T22:44:47.791Z"
+      }
+    ],
+    "account": [
+      {
+        "id": "dcac19c9-a7e5-4e43-b31b-8c2aa9a4487b",
+        "account_number": "1234567890",
+        "account_type": "Savings",
+        "balance": 62134,
+        "created_at": "2023-09-30T14:05:54.374Z",
+        "updated_at": "2023-09-30T15:36:27.753Z"
+      },
+      {
+        "id": "859e3591-cb91-4683-8bac-69ee41b34e43",
+        "account_number": "0987654321",
+        "account_type": "Checking",
+        "balance": 82067,
+        "created_at": "2023-09-30T04:31:17.576Z",
+        "updated_at": "2023-09-30T14:30:57.274Z"
+      },
+      {
+        "id": "1f762d89-8760-4349-a80f-59c11fa5ec38",
+        "account_number": "5678901234",
+        "account_type": "Investment",
+        "balance": 43280,
+        "created_at": "2023-09-30T05:30:31.723Z",
+        "updated_at": "2023-09-30T17:43:24.728Z"
+      },
+      {
+        "id": "03a25aa6-ce42-4994-b2de-d5e3b3e10e04",
+        "account_number": "4321098765",
+        "account_type": "Credit Card",
+        "balance": 16623,
+        "created_at": "2023-09-30T17:11:22.323Z",
+        "updated_at": "2023-09-30T03:21:08.765Z"
+      },
+      {
+        "id": "5dbdb440-8f58-49fc-940e-c0daec2b67c6",
+        "account_number": "9876543210",
+        "account_type": "Loan",
+        "balance": 24519,
+        "created_at": "2023-09-30T08:30:17.894Z",
+        "updated_at": "2023-09-30T21:28:07.623Z"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "20218209-bb91-4065-b26e-04f0f151f257",
+        "transaction_type": "Purchase",
+        "amount": 91810,
+        "transaction_date": "2023-09-30T07:01:35.640Z",
+        "created_at": "2023-09-30T03:20:14.225Z",
+        "updated_at": "2023-09-30T17:29:23.467Z",
+        "account_id": "5dbdb440-8f58-49fc-940e-c0daec2b67c6"
+      },
+      {
+        "id": "7cfd1ff4-dc6b-4f8a-b11c-aa24cf9d10b5",
+        "transaction_type": "Sale",
+        "amount": 36922,
+        "transaction_date": "2023-09-30T08:04:09.353Z",
+        "created_at": "2023-09-30T12:33:07.078Z",
+        "updated_at": "2023-09-30T23:50:59.893Z",
+        "account_id": "1f762d89-8760-4349-a80f-59c11fa5ec38"
+      },
+      {
+        "id": "7239e078-21f2-45a1-802f-47876fc15596",
+        "transaction_type": "Transfer",
+        "amount": 70340,
+        "transaction_date": "2023-09-30T14:16:19.673Z",
+        "created_at": "2023-09-30T19:33:15.954Z",
+        "updated_at": "2023-09-30T03:03:27.451Z",
+        "account_id": "dcac19c9-a7e5-4e43-b31b-8c2aa9a4487b"
+      },
+      {
+        "id": "b1539fae-3a41-4439-a525-f5878dfb930b",
+        "transaction_type": "Payment",
+        "amount": 17755,
+        "transaction_date": "2023-10-01T00:29:37.656Z",
+        "created_at": "2023-09-30T19:24:16.785Z",
+        "updated_at": "2023-09-30T12:10:27.909Z",
+        "account_id": "1f762d89-8760-4349-a80f-59c11fa5ec38"
+      },
+      {
+        "id": "c722c480-011b-463c-8bd4-047ba5afc3c4",
+        "transaction_type": "Withdrawal",
+        "amount": 60385,
+        "transaction_date": "2023-09-30T09:24:09.378Z",
+        "created_at": "2023-09-30T12:58:27.321Z",
+        "updated_at": "2023-09-30T11:20:51.191Z",
+        "account_id": "dcac19c9-a7e5-4e43-b31b-8c2aa9a4487b"
+      }
+    ],
+    "journal": [
+      {
+        "id": "27302860-58aa-436a-84f8-2ed36f73b3a6",
+        "entry_date": "2023-09-30T05:39:10.443Z",
+        "description": "Journal 1",
+        "debit": 28947,
+        "credit": 83209,
+        "created_at": "2023-09-30T11:59:31.982Z",
+        "updated_at": "2023-09-30T22:04:26.663Z",
+        "account_id": "5dbdb440-8f58-49fc-940e-c0daec2b67c6"
+      },
+      {
+        "id": "5d4ed7a4-e907-49d9-9975-6d5aec5228b4",
+        "entry_date": "2023-10-01T00:02:12.150Z",
+        "description": "Journal 2",
+        "debit": 96456,
+        "credit": 83941,
+        "created_at": "2023-09-30T14:48:10.852Z",
+        "updated_at": "2023-09-30T13:38:57.311Z",
+        "account_id": "1f762d89-8760-4349-a80f-59c11fa5ec38"
+      },
+      {
+        "id": "8e1fbefb-f83a-496f-bc67-0a6468f90170",
+        "entry_date": "2023-09-30T14:45:52.903Z",
+        "description": "Journal 3",
+        "debit": 84205,
+        "credit": 44199,
+        "created_at": "2023-09-30T16:08:19.018Z",
+        "updated_at": "2023-09-30T18:18:57.631Z",
+        "account_id": "dcac19c9-a7e5-4e43-b31b-8c2aa9a4487b"
+      },
+      {
+        "id": "056a58b6-e19e-468c-a747-8d7408333dde",
+        "entry_date": "2023-09-30T13:56:36.243Z",
+        "description": "Journal 4",
+        "debit": 79101,
+        "credit": 95682,
+        "created_at": "2023-09-30T12:03:58.819Z",
+        "updated_at": "2023-09-30T07:12:09.198Z",
+        "account_id": "1f762d89-8760-4349-a80f-59c11fa5ec38"
+      },
+      {
+        "id": "89aeadde-c207-4219-ba70-f5137e19a970",
+        "entry_date": "2023-09-30T14:00:31.031Z",
+        "description": "Journal 5",
+        "debit": 78864,
+        "credit": 893,
+        "created_at": "2023-09-30T07:02:08.334Z",
+        "updated_at": "2023-09-30T07:43:32.467Z",
+        "account_id": "1f762d89-8760-4349-a80f-59c11fa5ec38"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "11adcba2-9d2f-4aba-a0a0-29c42b41ac87",
+        "email": "Garrick_Dietrich68@roq.tech",
+        "firstName": "Verlie",
+        "lastName": "Russel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8061590",
+        "tenantId": null
+      },
+      {
+        "reference": "d06b41b4-f7d7-40d5-a736-36e11df29d49",
+        "email": "Nadia9@roq.tech",
+        "firstName": "Rupert",
+        "lastName": "Williamson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/684.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7ac8faa5-c43e-435d-b166-c8653de6d9e3",
+        "email": "Kayla93@roq.tech",
+        "firstName": "Adaline",
+        "lastName": "Stoltenberg",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51048585",
+        "tenantId": null
+      },
+      {
+        "reference": "2f53a153-22f7-49c0-8471-b11a83852a1a",
+        "email": "Blake58@roq.tech",
+        "firstName": "Hailee",
+        "lastName": "O'Hara",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/975.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c59770bd-47af-464a-a310-e4b787db5f2f",
+        "email": "Susana.Ziemann32@roq.tech",
+        "firstName": "Camylle",
+        "lastName": "Dach",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/373052",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "inventory": [
+      {
+        "id": "7d122a4b-be32-4592-89c3-4f6cbd2d9e2f",
+        "product_name": "Product 1",
+        "quantity": 8533,
+        "price": 69164,
+        "supplier": "Supplier A",
+        "created_at": "2023-09-30T01:18:29.804Z",
+        "updated_at": "2023-09-30T18:53:57.620Z"
+      },
+      {
+        "id": "cc6fe98d-b403-4d83-ae4b-0507ea3b3afc",
+        "product_name": "Product 2",
+        "quantity": 69563,
+        "price": 8978,
+        "supplier": "Supplier B",
+        "created_at": "2023-09-30T21:44:34.878Z",
+        "updated_at": "2023-09-30T11:53:08.863Z"
+      },
+      {
+        "id": "d4d1865d-ad90-4ac8-b86e-c2d250d054d0",
+        "product_name": "Product 3",
+        "quantity": 56054,
+        "price": 382,
+        "supplier": "Supplier C",
+        "created_at": "2023-09-30T17:53:23.287Z",
+        "updated_at": "2023-09-30T09:08:43.374Z"
+      },
+      {
+        "id": "9c1f7434-3b8f-4b15-81dc-3b5b8a1b33f6",
+        "product_name": "Product 4",
+        "quantity": 91052,
+        "price": 43772,
+        "supplier": "Supplier D",
+        "created_at": "2023-09-30T06:09:42.498Z",
+        "updated_at": "2023-09-30T23:48:04.503Z"
+      },
+      {
+        "id": "ceb93c20-dda5-4785-aacb-bd9ae6b7b2e1",
+        "product_name": "Product 5",
+        "quantity": 77264,
+        "price": 80206,
+        "supplier": "Supplier E",
+        "created_at": "2023-09-30T02:02:08.413Z",
+        "updated_at": "2023-09-30T13:31:44.499Z"
+      }
+    ],
+    "account": [
+      {
+        "id": "97bf608a-7274-4e36-b51e-b0198b9b25a5",
+        "account_number": "1234567890",
+        "account_type": "Savings",
+        "balance": 82744,
+        "created_at": "2023-09-30T06:48:01.739Z",
+        "updated_at": "2023-10-01T00:44:20.068Z"
+      },
+      {
+        "id": "1089db79-1382-49c1-b5b4-694a23da3b62",
+        "account_number": "0987654321",
+        "account_type": "Checking",
+        "balance": 99801,
+        "created_at": "2023-09-30T01:47:29.973Z",
+        "updated_at": "2023-09-30T10:52:57.759Z"
+      },
+      {
+        "id": "722fac90-b0da-498d-9abb-07fe58f34646",
+        "account_number": "2468135790",
+        "account_type": "Investment",
+        "balance": 48920,
+        "created_at": "2023-09-30T08:19:08.536Z",
+        "updated_at": "2023-09-30T05:59:07.111Z"
+      },
+      {
+        "id": "084e551d-8f0b-4138-876b-516e77925a9f",
+        "account_number": "1357924680",
+        "account_type": "Credit Card",
+        "balance": 89013,
+        "created_at": "2023-09-30T03:35:38.521Z",
+        "updated_at": "2023-09-30T04:34:55.556Z"
+      },
+      {
+        "id": "c08e1856-e2a5-4710-b3df-ddb018fa0e22",
+        "account_number": "9876543210",
+        "account_type": "Loan",
+        "balance": 90471,
+        "created_at": "2023-09-30T13:28:31.624Z",
+        "updated_at": "2023-09-30T21:55:44.961Z"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "b1d0438d-e253-4df9-9189-7426e674d691",
+        "transaction_type": "Purchase",
+        "amount": 55407,
+        "transaction_date": "2023-09-30T14:15:49.446Z",
+        "created_at": "2023-09-30T14:37:42.967Z",
+        "updated_at": "2023-09-30T09:31:05.545Z",
+        "account_id": "c08e1856-e2a5-4710-b3df-ddb018fa0e22"
+      },
+      {
+        "id": "6f3cf80d-d488-4235-87d9-e58a70bf1d8e",
+        "transaction_type": "Sale",
+        "amount": 43527,
+        "transaction_date": "2023-09-30T20:01:05.376Z",
+        "created_at": "2023-09-30T09:00:08.864Z",
+        "updated_at": "2023-09-30T11:12:24.277Z",
+        "account_id": "1089db79-1382-49c1-b5b4-694a23da3b62"
+      },
+      {
+        "id": "2850e989-c69b-4960-927f-47044832795d",
+        "transaction_type": "Deposit",
+        "amount": 16747,
+        "transaction_date": "2023-09-30T09:16:52.093Z",
+        "created_at": "2023-09-30T08:45:30.301Z",
+        "updated_at": "2023-10-01T00:14:31.102Z",
+        "account_id": "1089db79-1382-49c1-b5b4-694a23da3b62"
+      },
+      {
+        "id": "ef5ee4a2-a26f-4e83-9c96-484cfb53bb48",
+        "transaction_type": "Withdrawal",
+        "amount": 32869,
+        "transaction_date": "2023-09-30T08:59:49.311Z",
+        "created_at": "2023-09-30T18:41:13.476Z",
+        "updated_at": "2023-09-30T09:32:06.735Z",
+        "account_id": "084e551d-8f0b-4138-876b-516e77925a9f"
+      },
+      {
+        "id": "13214a19-33ee-43c5-913c-a61f5ef39cb0",
+        "transaction_type": "Transfer",
+        "amount": 94191,
+        "transaction_date": "2023-09-30T21:22:56.827Z",
+        "created_at": "2023-10-01T00:24:02.725Z",
+        "updated_at": "2023-09-30T02:54:55.280Z",
+        "account_id": "1089db79-1382-49c1-b5b4-694a23da3b62"
+      }
+    ],
+    "journal": [
+      {
+        "id": "2af4db69-f8f1-41d8-bad1-f5629a79a945",
+        "entry_date": "2023-09-30T04:40:28.678Z",
+        "description": "Journal 1",
+        "debit": 80247,
+        "credit": 47436,
+        "created_at": "2023-09-30T06:38:10.249Z",
+        "updated_at": "2023-09-30T09:53:54.127Z",
+        "account_id": "1089db79-1382-49c1-b5b4-694a23da3b62"
+      },
+      {
+        "id": "248b2088-7eed-48d8-b3ab-b6f4aa9c4ec7",
+        "entry_date": "2023-09-30T05:20:50.797Z",
+        "description": "Journal 2",
+        "debit": 470,
+        "credit": 62173,
+        "created_at": "2023-09-30T04:53:04.039Z",
+        "updated_at": "2023-10-01T00:26:46.723Z",
+        "account_id": "084e551d-8f0b-4138-876b-516e77925a9f"
+      },
+      {
+        "id": "9f4bd48e-1b1f-4f63-8574-59e3910555c0",
+        "entry_date": "2023-09-30T14:11:33.011Z",
+        "description": "Journal 3",
+        "debit": 87693,
+        "credit": 94994,
+        "created_at": "2023-09-30T18:42:16.678Z",
+        "updated_at": "2023-09-30T18:31:19.190Z",
+        "account_id": "722fac90-b0da-498d-9abb-07fe58f34646"
+      },
+      {
+        "id": "6c074889-b906-416a-92e0-fa6e375ce4a5",
+        "entry_date": "2023-09-30T19:58:32.082Z",
+        "description": "Journal 4",
+        "debit": 14790,
+        "credit": 99622,
+        "created_at": "2023-09-30T20:36:46.750Z",
+        "updated_at": "2023-09-30T20:56:50.053Z",
+        "account_id": "97bf608a-7274-4e36-b51e-b0198b9b25a5"
+      },
+      {
+        "id": "6f88d4db-8b44-4083-ad99-250bac98e7c2",
+        "entry_date": "2023-09-30T05:10:16.310Z",
+        "description": "Journal 5",
+        "debit": 78057,
+        "credit": 69953,
+        "created_at": "2023-09-30T07:47:06.264Z",
+        "updated_at": "2023-10-01T00:11:25.410Z",
+        "account_id": "722fac90-b0da-498d-9abb-07fe58f34646"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "72a8a562-4580-4265-90eb-8feea187df45",
+        "email": "Jamaal44@roq.tech",
+        "firstName": "Makenna",
+        "lastName": "Crist",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/99971183",
+        "tenantId": null
+      },
+      {
+        "reference": "db554e4a-616a-4f8b-a467-0dbe388e587e",
+        "email": "Johathan_Heathcote50@roq.tech",
+        "firstName": "Gerson",
+        "lastName": "Windler-Tromp",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21751488",
+        "tenantId": null
+      },
+      {
+        "reference": "eec45599-039e-499d-9720-8b1244fff681",
+        "email": "Riley24@roq.tech",
+        "firstName": "Gudrun",
+        "lastName": "Stark",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/104.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3d9c0761-e7f6-44cb-9662-c441daeb4abd",
+        "email": "Jennifer_Runte36@roq.tech",
+        "firstName": "Bobbie",
+        "lastName": "Farrell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/162.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a9db9401-b263-4de0-95cd-1446aaac1ac9",
+        "email": "Willow.Mraz@roq.tech",
+        "firstName": "Jayde",
+        "lastName": "Hamill",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/555.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "inventory": [
+      {
+        "id": "53d21605-3b54-451d-b94d-4b166bcb76f8",
+        "product_name": "Product A",
+        "quantity": 94673,
+        "price": 38512,
+        "supplier": "Supplier A",
+        "created_at": "2023-09-30T16:31:56.791Z",
+        "updated_at": "2023-09-30T19:12:24.405Z"
+      },
+      {
+        "id": "7e16cbb1-69a4-4ef0-82e3-15967d4ab5bf",
+        "product_name": "Product B",
+        "quantity": 5157,
+        "price": 67913,
+        "supplier": "Supplier B",
+        "created_at": "2023-09-30T09:52:30.273Z",
+        "updated_at": "2023-09-30T11:36:45.383Z"
+      },
+      {
+        "id": "e4c5ec58-66f9-4572-b15e-1baf5e8385b0",
+        "product_name": "Product C",
+        "quantity": 39035,
+        "price": 31691,
+        "supplier": "Supplier C",
+        "created_at": "2023-09-30T03:41:15.542Z",
+        "updated_at": "2023-10-01T00:08:43.616Z"
+      },
+      {
+        "id": "0c738935-b24c-41f1-81a2-db19bfd495ca",
+        "product_name": "Product D",
+        "quantity": 63426,
+        "price": 82384,
+        "supplier": "Supplier D",
+        "created_at": "2023-09-30T20:51:30.455Z",
+        "updated_at": "2023-09-30T15:07:42.568Z"
+      },
+      {
+        "id": "95c912a7-53a9-4d31-9817-98f77f3027f5",
+        "product_name": "Product E",
+        "quantity": 89290,
+        "price": 92209,
+        "supplier": "Supplier E",
+        "created_at": "2023-09-30T08:07:16.114Z",
+        "updated_at": "2023-09-30T03:46:38.571Z"
+      }
+    ],
+    "account": [
+      {
+        "id": "27a65cdc-071e-4b39-9312-5fae3fb1e542",
+        "account_number": "1234567890",
+        "account_type": "Savings",
+        "balance": 56663,
+        "created_at": "2023-09-30T16:41:10.076Z",
+        "updated_at": "2023-09-30T18:15:33.177Z"
+      },
+      {
+        "id": "a8fa0eed-77e1-40a9-81e2-27eab8a07c1a",
+        "account_number": "9876543210",
+        "account_type": "Checking",
+        "balance": 14856,
+        "created_at": "2023-09-30T11:49:34.794Z",
+        "updated_at": "2023-09-30T23:55:00.333Z"
+      },
+      {
+        "id": "a10cbaaf-c161-41e8-882a-dde777191210",
+        "account_number": "5678901234",
+        "account_type": "Investment",
+        "balance": 16741,
+        "created_at": "2023-09-30T14:51:46.237Z",
+        "updated_at": "2023-09-30T04:08:42.805Z"
+      },
+      {
+        "id": "a289be40-55bc-4939-8fce-93775f288bf8",
+        "account_number": "4321098765",
+        "account_type": "Credit Card",
+        "balance": 16377,
+        "created_at": "2023-09-30T17:13:24.645Z",
+        "updated_at": "2023-09-30T03:26:51.463Z"
+      },
+      {
+        "id": "8e581eb6-9c60-4a6e-b19a-9cd40fc8d308",
+        "account_number": "6789012345",
+        "account_type": "Loan",
+        "balance": 33806,
+        "created_at": "2023-09-30T17:50:15.139Z",
+        "updated_at": "2023-09-30T01:25:51.442Z"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "c7a50025-decf-4751-81c9-0a25a74ba7dc",
+        "transaction_type": "Purchase",
+        "amount": 53335,
+        "transaction_date": "2023-09-30T11:43:39.447Z",
+        "created_at": "2023-09-30T06:46:45.367Z",
+        "updated_at": "2023-09-30T21:35:54.005Z",
+        "account_id": "27a65cdc-071e-4b39-9312-5fae3fb1e542"
+      },
+      {
+        "id": "0e1bdd05-7804-46a2-a8bf-153186ca77ba",
+        "transaction_type": "Sale",
+        "amount": 59818,
+        "transaction_date": "2023-09-30T06:51:38.013Z",
+        "created_at": "2023-10-01T00:44:29.532Z",
+        "updated_at": "2023-09-30T15:51:52.727Z",
+        "account_id": "a289be40-55bc-4939-8fce-93775f288bf8"
+      },
+      {
+        "id": "e49a6ee9-df50-4e76-a50c-b5c434eeb5e3",
+        "transaction_type": "Deposit",
+        "amount": 8240,
+        "transaction_date": "2023-09-30T06:38:48.450Z",
+        "created_at": "2023-09-30T02:41:04.787Z",
+        "updated_at": "2023-09-30T20:50:21.623Z",
+        "account_id": "a8fa0eed-77e1-40a9-81e2-27eab8a07c1a"
+      },
+      {
+        "id": "3f83bc9f-d814-4a03-aa31-2bb374541716",
+        "transaction_type": "Withdrawal",
+        "amount": 14474,
+        "transaction_date": "2023-09-30T03:45:44.356Z",
+        "created_at": "2023-09-30T05:01:39.586Z",
+        "updated_at": "2023-09-30T22:31:43.848Z",
+        "account_id": "a8fa0eed-77e1-40a9-81e2-27eab8a07c1a"
+      },
+      {
+        "id": "70afe4b2-4258-49e0-bc0e-7980cc8c6c04",
+        "transaction_type": "Transfer",
+        "amount": 37237,
+        "transaction_date": "2023-09-30T21:04:22.727Z",
+        "created_at": "2023-09-30T19:46:54.192Z",
+        "updated_at": "2023-09-30T06:20:02.593Z",
+        "account_id": "27a65cdc-071e-4b39-9312-5fae3fb1e542"
+      }
+    ],
+    "journal": [
+      {
+        "id": "87df8ac2-c04d-48c9-9125-cce927671bdd",
+        "entry_date": "2023-09-30T19:53:49.737Z",
+        "description": "Journal Entry 1",
+        "debit": 79813,
+        "credit": 47016,
+        "created_at": "2023-09-30T10:50:02.898Z",
+        "updated_at": "2023-09-30T05:31:17.966Z",
+        "account_id": "a289be40-55bc-4939-8fce-93775f288bf8"
+      },
+      {
+        "id": "e0cb3ccf-ef72-485e-8265-0317ad8372d4",
+        "entry_date": "2023-09-30T08:00:45.979Z",
+        "description": "Journal Entry 2",
+        "debit": 39480,
+        "credit": 41315,
+        "created_at": "2023-09-30T05:50:39.645Z",
+        "updated_at": "2023-09-30T15:25:01.686Z",
+        "account_id": "a10cbaaf-c161-41e8-882a-dde777191210"
+      },
+      {
+        "id": "49cf2276-0269-4825-a7d8-033f97dfad35",
+        "entry_date": "2023-09-30T15:52:18.277Z",
+        "description": "Journal Entry 3",
+        "debit": 52325,
+        "credit": 48409,
+        "created_at": "2023-09-30T16:12:01.801Z",
+        "updated_at": "2023-09-30T01:40:55.066Z",
+        "account_id": "8e581eb6-9c60-4a6e-b19a-9cd40fc8d308"
+      },
+      {
+        "id": "608c70de-f605-4c64-a8ab-976587c9433d",
+        "entry_date": "2023-09-30T14:52:03.954Z",
+        "description": "Journal Entry 4",
+        "debit": 57931,
+        "credit": 13164,
+        "created_at": "2023-09-30T19:15:19.846Z",
+        "updated_at": "2023-09-30T20:36:56.466Z",
+        "account_id": "27a65cdc-071e-4b39-9312-5fae3fb1e542"
+      },
+      {
+        "id": "fffd99d6-33b0-4b84-9017-2c3820d32174",
+        "entry_date": "2023-09-30T15:59:32.810Z",
+        "description": "Journal Entry 5",
+        "debit": 60762,
+        "credit": 51744,
+        "created_at": "2023-09-30T21:20:31.569Z",
+        "updated_at": "2023-09-30T15:38:44.590Z",
+        "account_id": "27a65cdc-071e-4b39-9312-5fae3fb1e542"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "447dc42c-e01d-46d5-8af5-1f50a4003840",
+        "email": "Rozella83@roq.tech",
+        "firstName": "Ignatius",
+        "lastName": "Vandervort",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/97842769",
+        "tenantId": null
+      },
+      {
+        "reference": "d60b26d5-8fc1-48af-a085-02e933bf2912",
+        "email": "Margot.Connelly75@roq.tech",
+        "firstName": "Prudence",
+        "lastName": "Hahn-Feil",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80488849",
+        "tenantId": null
+      },
+      {
+        "reference": "619734ed-e392-48af-a049-a813cb141142",
+        "email": "Orville.Weissnat@roq.tech",
+        "firstName": "Davon",
+        "lastName": "Huel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/916.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8234f55b-0c80-4129-a53d-c6ab7466794c",
+        "email": "Enoch.OConner@roq.tech",
+        "firstName": "Jamar",
+        "lastName": "Balistreri",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1106.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "31e5c33d-5349-4905-a480-87d788e07fb4",
+        "email": "Kaden.Mosciski-Erdman47@roq.tech",
+        "firstName": "Mabel",
+        "lastName": "Lowe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1021.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
